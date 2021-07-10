@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="all,follow" />
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome CSS-->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css" />
+    <!-- Google fonts - Roboto-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" />
+    <!-- Bootstrap Select-->
+    <link rel="stylesheet" href="vendor/bootstrap-select/css/bootstrap-select.min.css" />
+    <!-- owl carousel-->
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css" />
+    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css" />
+
+    <!-- Custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <h1>Ops Visit</h1>
+    <!-- <div class="form-body">
+        <div class="row">
+            <div class="form-holder">
+                <div class="form-content">
+                    <div class="form-items">
+                        <form class="requires-validation" novalidate>
+                            <div class="form-button mt-3">
+                                <button id="submit" type="submit" class="btn btn-primary">
+                    Submit
+                  </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- section 0ne -->
+    <div class="container contact-form">
+        <div class="flex-container">
+            <div class="flex-child ">
+                <div class="col-md-12">
+                    <select class="form-control" id="store">
+              <option value="None"> Select Store </option>
+              <option value="1"> 1</option>
+              <option value="2"> 2</option>
+              <option value="3"> 3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6"> 6</option>
+              <option value="7"> 7</option>
+              <option value="8"> 8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11"> 11</option>
+              <option value="12"> 12</option>
+              <option value="13"> 13</option>
+              <option value="14">14</option>
+              <option value="15">15</option>
+              <option value="16"> 16</option>
+              <option value="17"> 17</option>
+              <option value="18"> 18</option>
+              <option value="19">19</option>
+              <option value="20">20</option>
+              <option value="21">21</option>
+              <option value="22">22</option>
+              <option value="23">23</option>
+              <option value="24">24</option>
+              <option value="25">25</option>
+              <option value="26"> 26</option>
+              <option value="27"> 27</option>
+              <option value="28"> 28</option>
+              <option value="29">29</option>
+              <option value="30">30</option>
+              <option value="31"> 31</option>
+              <option value="32"> 32</option>
+              <option value="33"> 33</option>
+              <option value="34">34</option>
+              <option value="35">35</option>
+              <option value="36"> 36</option>
+              <option value="37"> 37</option>
+              <option value="38"> 38</option>
+              <option value="39">39</option>
+              <option value="40">40</option>
+              <option value="41"> 41</option>
+              <option value="42"> 42</option>
+              <option value="43"> 43</option>
+              <option value="44">44</option>
+              <option value="45">45</option>
+              <option value="46">46</option>
+              <option value="47">47</option>
+              <option value="48">48</option>
+              <option value="49">49</option>
+              <option value="50">50</option>
+              <option value="51"> 51</option>
+              <option value="52"> 52</option>
+              <option value="53"> 53</option>
+              <option value="54">54</option>
+              <option value="55">55</option>
+              <option value="56"> 56</option>
+              <option value="57"> 57</option>
+              <option value="8"> 58</option>
+              <option value="9">59</option>
+              <option value="60">60</option>
+              <option value="61"> 61</option>
+              <option value="62"> 62</option>
+              <option value="63"> 63</option>
+              <option value="64">64</option>
+              <option value="65">65</option>
+              <option value="66"> 66</option>
+              <option value="67"> 67</option>
+              <option value="68"> 68</option>
+              <option value="69">69</option>
+              <option value="70">70</option>
+              <option value="71">71</option>
+              <option value="72">72</option>
+              <option value="73">73</option>
+              <option value="74">74</option>
+              <option value="75">75</option>
+              <option value="76"> 76</option>
+              <option value="77"> 77</option>
+              <option value="78"> 78</option>
+              <option value="79">79</option>
+              <option value="80">80</option>
+              <option value="81"> 81</option>
+              <option value="82"> 82</option>
+              <option value="83"> 83</option>
+              <option value="84">84</option>
+              <option value="85">85</option>
+              <option value="86"> 86</option>
+              <option value="87"> 87</option>
+              <option value="88"> 88</option>
+              <option value="89">89</option>
+              <option value="90">90</option>
+              <option value="91"> 91</option>
+              <option value="92"> 92</option>
+              <option value="93"> 93</option>
+              <option value="94">94</option>
+              <option value="95">95</option>
+              <option value="96">96</option>
+              <option value="97">97</option>
+              <option value="98">98</option>
+              <option value="99">99</option>
+              <option value="100">100</option>
+            </select>
+                </div>
+            </div>
+            <div class="flex-child ">
+                <input class="form-control" type="date" data-date="" data-date-format="DD MMMM YYYY" />
+            </div>
+            <div class="flex-child ">
+                <input class="form-control" type="text" placeholder="Which Visit" />
+            </div>
+
+            <div class="flex-child ">
+                <input class="form-control" type="text" placeholder="Operations Manager" />
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+    <!-- section two -->
+    <div class="container contact-form">
+        <div class="flex-containertwo">
+
+            <div class="flex-child">
+                <label>Registrations [Store managers Role playing and coaching team? Culture of support and coaching in place]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Registrations [Review loan closings as they happen. What was outcome?]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Registrations [Loan registrations include debit card, bank statement and e-mail address. Where are opportunities today?]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Registrations [Update personal information on all transaction by asking "What is your phone number? What is your address?"]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Revenue [Review P&L & all Revenue Goals. Is current week Prelim P&L posted for store team to review?]</label>
+
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Revenue [Upselling and cross/right selling all products with enthusiasm?]</label>
+
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Revenue [All equipment working properly? (terminals, printer, scanner, etc) Help ticket filed?]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Revenue [Audit all new flex loans including all supporting docs for validity since last visit. Initial each checklist.]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Payroll [Store is fully staffed and utilizing all payroll hours?]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Customer Experience [Every team member following CEC stages every time, with every customer?]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Team knows most recent mystery shop scores and hits/misses?]</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Are all store front signs on? All overhead and outside lights working?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Planograms in lobby and teller area correct and reflective of world class standard?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Customer Experience [All areas of the store are surgically clean? (Counters, floors, ceiling tiles, windows)]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Trash removed and disposed of properly, no customer info in trash?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Employee Experience [Field Training Guide utilized fully by store manager? CSR's not working alone within first three weeks of employment?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Employee Experience [Safety protocols followed without exception? Mantrap doors opened one at a time.]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Employee Experience [IDP's being utilized and reviewed monthly by store manager?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Employee Experience [FORD Card program reflective of current team?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Cash is secured in safe or in cash drawers? (Never left unsupervised)]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [All Loomis deliveries processed within one hour of arrival? (Sooner when no customers in building)]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Empty cash recycler to include all casettes and overflow. Ensure safe balances. Confirm user]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Compliance [Safe accessed by vault owner only?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [All training materials reflect no earlier than June 2016?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Compliance [All documents follow retention schedule and all loan docs secured in file cabinets and/or labeled banker boxes?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Internal Audit missed items corrected within seven days and loaded to share drive?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Compliance [Review Over/Shorts. Training and coaching timely?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Compliance [Vendor Recon performed properly? Store Manager comparing vendor report vs. FiNext? Chexar vs FiNext?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Cash withdrawals include a copy of ID and receipt signed by customer. Matches to DTJ.]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Drawer deassignments completed by safe holder including printing vendor reports and checking for variance?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Validate receipts. Check for Finext cash disbursements. $75 and above sent over to accouting?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Compliance [All office supplies ordered and in line with budget?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Communication binder includes store schedule and all postings off store walls?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+        </div>
+    </div>
+
+    <!-- section three -->
+    <div class="container contact-form">
+        <div class="flex-containerthree">
+
+            <div class="flex-child ">
+                <label>Customer Experience [Five E's of Employee Engagement Successfully Demonstrated : 	</label>
+                <select class="form-control" id="employee" name="">
+                        <option value="None"> Select  </option>
+                                <option value="">Eye Contact</option>
+                                <option value="">Ear to Ear Smile 😼 </option>
+                                <option value="">Enthusiastic Greeting</option>
+                                <option value="">Engage</option>
+                                <option value="">Educate</option>
+                              </select>
+            </div>
+
+            <div class="flex-child">
+                <label>Employee Experience [CSR Recognition board includes monthly recognition refresh of Caught you doing something right cards.]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Registrations [Consistently edit customer information including debit cards and EBV benefit discussions with customers.]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Employee Experience [New Hire Orientation and Onboarding completed and meets deadlines.]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Employee Experience [One on One completed weekly for all employees]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Review Online reviews do you have 5 star rating in Google? Is it current to the last 30 days? Is the team getting Facebook likes?]	</label>
+
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Review Online reviews do you have 5 star rating on Yelp ? Is it current to the last 30 days? Is the team getting BBB review?]	</label>
+
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Registrations [Review EBV Sheet on drive for success]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Employee Experience [Team meeting agenda, Using the correct format and are they being held weekly?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Customer Experience [Google and Yelp online reviews 4.5 rating or above?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Registrations [Online Inactives and Lead to Store calls made daily and LTS five minute contact goal achieved.]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Customer Experience [Coaches guide for mystery shops complete within 7 days of shop notice?]	</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Employee Experience [Manager schedule includes working every other Saturday and shifts of 8-6 Monday - Friday ]		</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Registrations [Review Denials and NMI's for follow up and re-submission as necessary]		</label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+            <div class="flex-child ">
+                <label>Compliance [Empty cash recycler including all casettes and overflow cash is removed. ] </label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+            <div class="flex-child ">
+                <label>Compliance [Empty recycler of all casettes and overflow and ensure safe balances. Val]
+                    </label>
+                <input class="form-control" id="inputnum" type="text" />
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="container contact-form">
+        <div class="flex-containerfour">
+
+            <div class="flex-child">
+                <label class="labels">Registration Notes </label>
+                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Registration Notes "></textarea>
+            </div>
+            <div class="flex-child">
+                <label class="labels">Revenue Notes</label>
+                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Revenue Notes"></textarea>
+            </div>
+            <div class="flex-child">
+                <label class="labels">Payroll Notes</label>
+                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Payroll Notes"></textarea>
+            </div>
+            <div class="flex-child">
+                <label class="labels">Customer Experience Notes</label>
+                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Customer Experience Notes"></textarea>
+            </div>
+            <div class="flex-child">
+                <label class="labels">Employee Experience Notes</label>
+                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Employee Experience Notes"></textarea>
+            </div>
+            <div class="flex-child">
+                <label class="labels">Compliance Notes</label>
+                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Compliance Notes"></textarea>
+            </div>
+            <div class="flex-child">
+
+                <textarea name="txtMsg" class="form-control" id="email" placeholder="Email "></textarea>
+            </div>
+            <div class="flex-child">
+                <input type="submit" name="btnSubmit" class="btnContact" value="Submit" />
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- Javascript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper.js/umd/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="vendor/waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="vendor/jquery.counterup/jquery.counterup.min.js"></script>
+    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="vendor/owl.carousel2.thumbs/owl.carousel2.thumbs.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="vendor/jquery.scrollto/jquery.scrollTo.min.js"></script>
+    <script src="js/front.js"></script>
+</body>
+
+</html>
