@@ -1,0 +1,175 @@
+.btn-primary {
+    background-color: #6c757d;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #495056;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.flex-container {
+    display: grid;
+    grid-template-columns: repeat(4, 15%);
+    grid-column-gap: 80px;
+    margin-left: 10px;
+    margin-top: 11px;
+    padding: 4%;
+}
+
+.flex-containertwo {
+    display: grid;
+    grid-template-columns: repeat(6, 15%);
+    grid-column-gap: 30px;
+    margin-left: 10px;
+    margin-top: 14px;
+    padding: 2%;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.flex-containerthree {
+    display: grid;
+    grid-template-columns: repeat(4, 15%);
+    grid-column-gap: 30px;
+    margin-left: 10px;
+    margin-top: 14px;
+    padding: 2%;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+.flex-containerfour {
+    display: grid;
+    grid-template-columns: repeat(3, 15%);
+    grid-column-gap: 130px;
+    /* margin-left: 10px; */
+    margin-top: 14px;
+    padding: 4%;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+}
+
+#msg {
+    width: 350px;
+    height: 120px;
+    border-radius: 5px;
+    margin-left: -100px;
+    align-items: center;
+}
+
+#email {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: -100px;
+    align-items: center;
+}
+
+label {
+    /* text-align: center; */
+    margin-bottom: 10px;
+    overflow: hidden;
+    background-color: white;
+    height: 195px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
+
+.labels {
+    text-align: center;
+    background-color: transparent;
+    margin-bottom: 10px;
+    height: 60px;
+    width: 150px;
+    border-radius: 5px;
+    align-items: center;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+}
+
+.flex-child {
+    flex: 1;
+    margin-bottom: 14px;
+}
+
+.form-control {
+    border: 2px transparent rgb(179, 179, 172);
+    box-shadow: 3px 4px #b8b6b6;
+    border-radius: 7rem;
+    width: 150%;
+    outline: 0;
+}
+
+
+/* input number form two*/
+
+#inputnum {
+    width: 50%;
+    margin-bottom: 20px;
+    margin-left: 35px;
+    color: black;
+}
+
+body {
+    background-color: #a10303;
+}
+
+.contact-form {
+    /* background: -webkit-linear-gradient(left, #d3d1d1, #7c7b7b); */
+    background-color: #999b9c;
+    /* opacity: 0.5; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+    height: auto;
+    outline: 0;
+}
+
+.contact-form {
+    border-radius: 1rem;
+}
+
+.contact-form form {
+    padding: 14%;
+}
+
+.contact-form .btnContact {
+    width: 50%;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: #f14f5f;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btnContactSubmit {
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    color: #fff;
+    background-color: #0062cc;
+    border: none;
+    cursor: pointer;
+}
+
+#employee {
+    width: 105%;
+}
