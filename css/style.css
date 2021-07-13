@@ -1,25 +1,13 @@
-.btn-primary {
-    background-color: #6c757d;
-    outline: none;
-    border: 0px;
-    box-shadow: none;
+h2 {
+    display: block;
+    font-size: 15px;
+    margin-left: 44px;
+    margin-bottom: 15px;
+    font-weight: 400;
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active {
-    background-color: #495056;
-    outline: none !important;
-    border: none !important;
-    box-shadow: none;
-}
 
-h1 {
-    text-align: center;
-    color: white;
-}
-
-.flex-container {
+/* .flex-container {
     display: grid;
     grid-template-columns: repeat(4, 15%);
     grid-column-gap: 80px;
@@ -31,15 +19,16 @@ h1 {
 .flex-containertwo {
     display: grid;
     grid-template-columns: repeat(6, 15%);
-    grid-column-gap: 30px;
+    grid-column-gap: 3px;
     margin-left: 10px;
     margin-top: 14px;
     padding: 2%;
     margin-bottom: 20px;
     justify-content: space-evenly;
-}
+} */
 
-.flex-containerthree {
+
+/* .flex-containerthree {
     display: grid;
     grid-template-columns: repeat(4, 15%);
     grid-column-gap: 30px;
@@ -54,18 +43,55 @@ h1 {
     display: grid;
     grid-template-columns: repeat(3, 15%);
     grid-column-gap: 130px;
-    /* margin-left: 10px; */
-    margin-top: 14px;
-    padding: 4%;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-}
+    
 
-#msg {
-    width: 350px;
-    height: 120px;
+margin-top: 14px;
+padding: 4%;
+margin-bottom: 20px;
+justify-content: space-evenly;
+
+}
+*/
+
+#msg,
+#msgone,
+#msgtwo,
+#msgthree,
+#msgfour,
+#msgfive,
+#msgsix,
+#msgseven,
+#msgeight,
+#msgnine,
+#msgten,
+#msgeleven,
+#msgTwelve,
+#msgThirteen,
+#msgFourteen,
+#msgFifteen,
+#msgSixteen,
+#msgSeventeen,
+#msgEighteen,
+#msgNineteen,
+#msgTwenty,
+#msgTwentyone,
+#msgTwentytwo,
+#msgTwentythree,
+#msgTwentyfour,
+#msgTwentyfive,
+#msgTwentysix,
+#msgTwentyseven,
+#msgTwentyeight,
+#msgTwentynine,
+#msgThirty,
+#msgThirtyone,
+#msgThirtytwo {
+    width: 590px;
+    height: 80px;
     border-radius: 5px;
-    margin-left: -100px;
+    margin-left: 550px;
+    margin-top: -50px;
+    margin-bottom: 20px;
     align-items: center;
 }
 
@@ -77,12 +103,93 @@ h1 {
     align-items: center;
 }
 
+hr {
+    height: 1px;
+    background: rgb(180, 179, 179);
+}
+
+
+/* director form */
+
+
+/* #emailtwo {
+    width: 350px;
+    height: 40px;
+    border-radius: 5px;
+    margin-left: -815px;
+    align-items: center;
+    margin-top: 255px;
+} */
+
 label {
-    /* text-align: center; */
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+    align-items: center;
+}
+
+input[type="checkbox" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 3px 4px;
+    padding: initial;
+    border: initial;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    -webkit-rtl-ordering: logical;
+    align-items: center;
+}
+
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(10, 10, 10);
+    border-image: initial;
+    padding: 2px;
+}
+
+
+/* director form */
+
+
+/* .labeltwo {
+    
     margin-bottom: 10px;
     overflow: hidden;
     background-color: white;
     height: 195px;
+    width: 160px;
     border-radius: 5px;
     align-items: center;
     padding: 5px;
@@ -94,46 +201,86 @@ label {
     text-align: center;
     background-color: transparent;
     margin-bottom: 10px;
-    height: 60px;
+    height: 90px;
     width: 150px;
     border-radius: 5px;
     align-items: center;
     padding: 5px;
     color: black;
     font-size: 15px;
-}
+} */
 
 .flex-child {
     flex: 1;
     margin-bottom: 14px;
+    display: block;
 }
 
 .form-control {
-    border: 2px transparent rgb(179, 179, 172);
-    box-shadow: 3px 4px #b8b6b6;
-    border-radius: 7rem;
-    width: 150%;
+    width: 275px;
+    height: 30px;
+    margin-left: 200px;
     outline: 0;
+    display: block;
 }
 
 
-/* input number form two*/
+/* input number ops form */
 
-#inputnum {
-    width: 50%;
-    margin-bottom: 20px;
-    margin-left: 35px;
-    color: black;
-}
 
-body {
-    background-color: #a10303;
+/* #inputnum,
+#inputone,
+#inputtwo,
+#inputthree,
+#inputfour,
+#inputfive,
+#inputsix,
+#inputseven,
+#inputeight,
+#inputnine,
+#inputten,
+#inputeleven,
+#inputTwelve,
+#inputThirteen,
+#inputFourteen,
+#inputFifteen,
+#inputSixteen,
+#inputSeventeen,
+#inputEighteen,
+#inputNineteen,
+#inputTwenty,
+#inputTwentyone,
+#inputTwentytwo,
+#inputTwentythree,
+#inputTwentyfour,
+#inputTwentyfive,
+#inputTwentysix,
+#inputTwentyseven,
+#inputTwentyeight,
+#inputTwentynine,
+#inputThirty,
+#inputThirtyone {
+   
+    background-color: blue;
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+} */
+
+
+/* body {
+    background-color: #c2bfbf;
 }
 
 .contact-form {
-    /* background: -webkit-linear-gradient(left, #d3d1d1, #7c7b7b); */
-    background-color: #999b9c;
-    /* opacity: 0.5; */
+    background-color: #7a7c7c;
+    
     margin-top: 5%;
     margin-bottom: 5%;
     width: 100%;
@@ -158,18 +305,167 @@ body {
     font-weight: 600;
     color: #fff;
     cursor: pointer;
-}
+} */
 
-.btnContactSubmit {
+
+/* director form */
+
+
+/* .contact-form .btnContacttwo {
     width: 50%;
+    border: none;
     border-radius: 1rem;
     padding: 1.5%;
+    background: #f14f5f;
+    font-weight: 600;
     color: #fff;
-    background-color: #0062cc;
-    border: none;
     cursor: pointer;
+    margin-left: 350px;
 }
 
 #employee {
     width: 105%;
+} */
+
+
+/* .containertwo {
+    
+    display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-column-gap: 10px;
+    
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} */
+
+
+/* Hide the browser's default checkbox */
+
+
+/* .containertwo input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+} */
+
+
+/* Create a custom checkbox */
+
+
+/* .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 15px;
+} */
+
+
+/* On mouse-over, add a grey background color */
+
+.containertwo:hover input~.checkmark {
+    /* background-color: #ccc; */
+}
+
+
+/* When the checkbox is checked, add a blue background */
+
+.containertwo input:checked~.checkmark {
+    /* background-color: #2196f3; */
+}
+
+
+/* Create the checkmark/indicator (hidden when not checked) */
+
+.checkmark:after {
+    /* content: "";
+    position: absolute;
+    display: none; */
+}
+
+
+/* Show the checkmark when checked */
+
+.containertwo input:checked~.checkmark:after {
+    /* display: grid;
+    grid-template-columns: repeat(5, 15%);
+    grid-column-gap: 10px; */
+}
+
+
+/* Style the checkmark/indicator */
+
+.containertwo .checkmark:after {
+    /* left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); */
+}
+
+
+/* fieldset {
+    float: left;
+    width: half the area;
+}
+
+fieldset label {
+    display: inline;
+    (though this should be default) padding: 0 enough for the sides;
+    white-space: nowrap;
+    don’t let inputs wrap without bringing label text along
+} */
+
+div {
+    display: inline-block;
+}
+
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+
+select {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 0px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+body {
+    display: block;
+    margin: 8px;
 }
