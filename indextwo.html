@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Director Store Visit</title>
+    <title>Director Form</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="all,follow" />
@@ -25,14 +25,14 @@
 </head>
 
 <body>
-    <h1>Director Visit</h1>
+    <h1>Director Store Visit Form</h1>
 
     <!-- section 0ne -->
     <div class="container contact-form">
-        <div class="flex-container">
-            <div class="flex-child ">
+        <div class="flex-container" id="startformTwo">
+            <div class="flex-child">
                 <div class="col-md-12">
-                    <select class="form-control" id="store" required>
+                    <select id="store" required>
               <option value="None"> Select Store </option>
               <option value="1"> 1</option>
               <option value="2"> 2</option>
@@ -134,25 +134,26 @@
               <option value="98">98</option>
               <option value="99">99</option>
               <option value="100">100</option>
+              <option value="100">101</option>
+              <option value="100">102</option>
+              <option value="100">103</option>
+              <option value="100">104</option>
             </select>
                 </div>
             </div>
             <div class="flex-child ">
-                <textarea class="form-control" type="date" data-date="" data-date-format="DD MMMM YYYY" required></textarea>
+                <input type="date" id="datepicker" data-date-format="DD MMMM YYYY" required>
             </div>
-            <!-- <div class="flex-child ">
-                <input class="form-control" type="text" placeholder="Which Visit" />
-            </div> -->
 
             <div class="flex-child ">
-                <textarea class="form-control" type="text" placeholder="Operations Manager" required></textarea>
+                <input type="text" id="OperationsManager" placeholder="Operations Manager" required>
             </div>
         </div>
 
 
     </div>
     </div>
-    <hr style=" width:1142px; margin-left: 75px; margin-bottom: -15px;">
+    <hr style=" width:1142px; margin-left: 15px; margin-bottom: -15px;">
     <br><br><br>
 
 
@@ -181,7 +182,7 @@
                 <hr>
 
 
-            </div><br>
+            </div>
             <div class="flex-child ">
                 <h2>Store and CSR Dashboard:</h2>
                 <label for="StoreandCSR">1</label>
@@ -413,186 +414,310 @@
 
 
             <div class="flex-child ">
-                <label class="labeltwo">Role Playing on Upsell		</label>
-                <input class="form-control" id="inputSixteen" type="text" />
+                <h2>Role Playing on Upsell:</h2>
+                <label for="RolePlaying">1</label>
+                <input type="radio" id="RolePlayingone" name="fav" value="1">
+                <label for="RolePlaying">2</label>
+                <input type="radio" id="RolePlayingtwo" name="fav" value="2">
+                <label for="RolePlaying">3</label>
+                <input type="radio" id="RolePlayingthree" name="fav" value="3">
+                <label for="RolePlaying">4</label>
+                <input type="radio" id="RolePlayingfour" name="fav" value="4">
+                <label for="RolePlaying">5</label>
+                <input type="radio" id="RolePlayingfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgSixteen" placeholder="Role Playing on Upsell Notes"></textarea>
+                <hr>
+
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">Loan Closings and going Above and Beyond examples</label>
-                <input class="form-control" id="inputSeventeen" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label class="labeltwo">Recognition Boards</label>
-                <input class="form-control" id="inputEighteen" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label class="labeltwo">FORD Cards/Recognition Board	</label>
-                <input class="form-control" id="inputNineteen" type="text" />
+                <h2>Loan Closings and going Above and Beyond examples:</h2>
+                <label for="AboveBeyond">1</label>
+                <input type="radio" id="AboveBeyondone" name="fav" value="1">
+                <label for="AboveBeyond">2</label>
+                <input type="radio" id="AboveBeyondtwo" name="fav" value="2">
+                <label for="AboveBeyond">3</label>
+                <input type="radio" id="AboveBeyondthree" name="fav" value="3">
+                <label for="AboveBeyond">4</label>
+                <input type="radio" id="AboveBeyondfour" name="fav" value="4">
+                <label for="AboveBeyond">5</label>
+                <input type="radio" id="AboveBeyondfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgSeventeen" placeholder="Loan Closings and going Above and Beyond Notes"></textarea>
+                <hr>
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">Overall Cleanliness	</label>
-                <input class="form-control" id="inputTwenty" type="text" />
+
+                <h2>Recognition Boards:</h2>
+                <label for="Recognition">1</label>
+                <input type="radio" id="Recognitionone" name="fav" value="1">
+                <label for="Recognition">2</label>
+                <input type="radio" id="Recognitiontwo" name="fav" value="2">
+                <label for="Recognition">3</label>
+                <input type="radio" id="Recognitionthree" name="fav" value="3">
+                <label for="Recognition">4</label>
+                <input type="radio" id="Recognitionfour" name="fav" value="4">
+                <label for="Recognition">5</label>
+                <input type="radio" id="Recognitionfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgEighteen" placeholder="Recognition Notes"></textarea>
+                <hr>
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">Dress Code</label>
-                <input class="form-control" id="inputTwentyone" type="text" />
+
+                <h2>FORD Cards/Recognition Board:</h2>
+                <label for="FORDCards">1</label>
+                <input type="radio" id="FORDCardsone" name="fav" value="1">
+                <label for="FORDCards">2</label>
+                <input type="radio" id="FORDCardstwo" name="fav" value="2">
+                <label for="FORDCards">3</label>
+                <input type="radio" id="FORDCardsthree" name="fav" value="3">
+                <label for="FORDCards">4</label>
+                <input type="radio" id="FORDCardsfour" name="fav" value="4">
+                <label for="FORDCards">5</label>
+                <input type="radio" id="FORDCardsfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgNineteen" placeholder="FORD Cards/Recognition Notes "></textarea>
+                <hr>
+
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">Review Document Retention</label>
-                <input class="form-control" id="inputTwentytwo" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label class="labeltwo">Audit Five Flex Loans</label>
-                <input class="form-control" id="inputTwentythree" type="text" />
-            </div>
+                <h2>Overall Cleanliness:</h2>
+                <label for="Cleanliness">1</label>
+                <input type="radio" id="Cleanlinessone" name="fav" value="1">
+                <label for="Cleanliness">2</label>
+                <input type="radio" id="Cleanlinesstwo" name="fav" value="2">
+                <label for="Cleanliness">3</label>
+                <input type="radio" id="Cleanlinessthree" name="fav" value="3">
+                <label for="Cleanliness">4</label>
+                <input type="radio" id="Cleanlinessfour" name="fav" value="4">
+                <label for="Cleanliness">5</label>
+                <input type="radio" id="Cleanlinessfive" name="fav" value="5">
 
-            <div class="flex-child ">
-                <label class="labeltwo">Validate hand signed agreement inventory and documents are present in the building</label>
-                <input class="form-control" id="inputTwentyfour" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label class="labeltwo">Store is fully staffed and manager recruiting weekly.</label>
-                <input class="form-control" id="inputTwentyfive" type="text" />
-            </div>
-
-            <div class="flex-child ">
-                <label class="labeltwo">Recruiting efforts</label>
-                <input class="form-control" id="inputTwentysix" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label class="labeltwo">Community Involvement</label>
-                <input class="form-control" id="inputTwentyseven" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label class="labeltwo">Review and Ensure Store Exhibits a safe and secure environment</label>
-                <input class="form-control" id="inputTwentyeight" type="text" />
+                <textarea name="txtMsg" class="form-control" id="msgTwenty" placeholder="Cleanliness Notes"></textarea>
+                <hr>
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">Is Manager following up on NMI/Denial/Approved not Withdrawn Daily? Evidence customer is contacted to convert to AR?	</label>
-                <input class="form-control" id="inputTwentynine" type="text" />
+                <h2>Dress Code:</h2>
+                <label for="DressCode">1</label>
+                <input type="radio" id="DressCodeone" name="fav" value="1">
+                <label for="DressCode">2</label>
+                <input type="radio" id="DressCodetwo" name="fav" value="2">
+                <label for="DressCode">3</label>
+                <input type="radio" id="DressCodethree" name="fav" value="3">
+                <label for="DressCode">4</label>
+                <input type="radio" id="DressCodefour" name="fav" value="4">
+                <label for="DressCode">5</label>
+                <input type="radio" id="DressCodefive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentyone" placeholder="Dress Code Notes"></textarea>
+                <hr>
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">Are all store employees in proper dresscode?		</label>
-                <input class="form-control" id="inputThirty" type="text" />
+                <h2>Review Document Retention:</h2>
+                <label for="ReviewDoc">1</label>
+                <input type="radio" id="ReviewDocone" name="fav" value="1">
+                <label for="ReviewDoc">2</label>
+                <input type="radio" id="ReviewDoctwo" name="fav" value="2">
+                <label for="ReviewDoc">3</label>
+                <input type="radio" id="ReviewDocthree" name="fav" value="3">
+                <label for="ReviewDoc">4</label>
+                <input type="radio" id="ReviewDocfour" name="fav" value="4">
+                <label for="ReviewDoc">5</label>
+                <input type="radio" id="ReviewDocfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentytwo" placeholder="Review Document Retention Notes"></textarea>
+                <hr>
             </div>
 
             <div class="flex-child ">
-                <label class="labeltwo">CSR Recognition Board</label>
-                <input class="form-control" id="inputThirtyone" type="text" />
+                <h2>Audit Five Flex Loans:</h2>
+                <label for="AuditFlex">1</label>
+                <input type="radio" id="AuditFlexone" name="fav" value="1">
+                <label for="AuditFlex">2</label>
+                <input type="radio" id="AuditFlextwo" name="fav" value="2">
+                <label for="AuditFlex">3</label>
+                <input type="radio" id="AuditFlexthree" name="fav" value="3">
+                <label for="AuditFlex">4</label>
+                <input type="radio" id="AuditFlexfour" name="fav" value="4">
+                <label for="AuditFlex">5</label>
+                <input type="radio" id="AuditFlexfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentythree" placeholder="Audit Five Flex Loans Notes"></textarea>
+                <hr>
             </div>
 
-        </div>
+            <div class="flex-child ">
+                <h2>Validate hand signed agreement <br>inventory and documents are <br>present in the building:</h2>
+                <label for="ValidateAgreement">1</label>
+                <input type="radio" id="ValidateAgreementone" name="fav" value="1">
+                <label for="ValidateAgreement">2</label>
+                <input type="radio" id="ValidateAgreementtwo" name="fav" value="2">
+                <label for="ValidateAgreement">3</label>
+                <input type="radio" id="ValidateAgreementthree" name="fav" value="3">
+                <label for="ValidateAgreement">4</label>
+                <input type="radio" id="ValidateAgreementfour" name="fav" value="4">
+                <label for="ValidateAgreement">5</label>
+                <input type="radio" id="ValidateAgreementfive" name="fav" value="5">
 
-    </div>
-    <hr style=" width:1152px; margin-left: 64px; margin-bottom: -15px;">
-    <br><br><br>
-    <!-- note section  -->
-
-    <div class="container contact-form">
-
-        <div class="flex-containerfour">
-
-
-            <div class="flex-child">
-                <label class="labels">Role Playing on Upsell Notes
-                <textarea name="txtMsg" class="form-control" id="msgSixteen" placeholder="Role Playing on Upsell Notes"></textarea> <hr></label>
+                <textarea name="txtMsg" class="form-control" id="msgTwentyfour" placeholder="Validate hand signed agreement inventory Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Loan Closings and going <br>Above and Beyond examples Notes
-                <textarea name="txtMsg" class="form-control" id="msgSeventeen" placeholder="Loan Closings and going Above and Beyond Notes"></textarea> <hr> </label>
+            <div class="flex-child ">
+                <h2>Store is fully staffed and <br>manager recruiting weekly:</h2>
+                <label for="fullyStaffed">1</label>
+                <input type="radio" id="fullyStaffedone" name="fav" value="1">
+                <label for="fullyStaffed">2</label>
+                <input type="radio" id="fullyStaffedtwo" name="fav" value="2">
+                <label for="fullyStaffed">3</label>
+                <input type="radio" id="fullyStaffedthree" name="fav" value="3">
+                <label for="fullyStaffed">4</label>
+                <input type="radio" id="fullyStaffedfour" name="fav" value="4">
+                <label for="fullyStaffed">5</label>
+                <input type="radio" id="fullyStaffedfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentyfive" placeholder="Fully staffed and manager recruiting Notes "></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Recognition Boards Notes
-                <textarea name="txtMsg" class="form-control" id="msgEighteen" placeholder="Recognition Notes"></textarea> <hr> </label>
+            <div class="flex-child ">
+                <h2>Recruiting efforts:</h2>
+                <label for="Recruiting">1</label>
+                <input type="radio" id="Recruitingone" name="fav" value="1">
+                <label for="Recruiting">2</label>
+                <input type="radio" id="Recruitingtwo" name="fav" value="2">
+                <label for="Recruiting">3</label>
+                <input type="radio" id="Recruitingthree" name="fav" value="3">
+                <label for="Recruiting">4</label>
+                <input type="radio" id="Recruitingfour" name="fav" value="4">
+                <label for="Recruiting">5</label>
+                <input type="radio" id="Recruitingfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentysix" placeholder="Recruiting efforts Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">FORD Cards/Recognition <br>Board Notes 
-                <textarea name="txtMsg" class="form-control" id="msgNineteen" placeholder="FORD Cards/Recognition Notes "></textarea> <hr></label>
+            <div class="flex-child ">
+                <h2>Community Involvement:</h2>
+                <label for="Community">1</label>
+                <input type="radio" id="Communityone" name="fav" value="1">
+                <label for="Community">2</label>
+                <input type="radio" id="Communitytwo" name="fav" value="2">
+                <label for="Community">3</label>
+                <input type="radio" id="Communitythree" name="fav" value="3">
+                <label for="Community">4</label>
+                <input type="radio" id="Communityfour" name="fav" value="4">
+                <label for="Community">5</label>
+                <input type="radio" id="Communityfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentyseven" placeholder="Community Involvement Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Overall Cleanliness Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwenty" placeholder="Cleanliness Notes"></textarea> <hr></label>
+            <div class="flex-child ">
+                <h2>Review and Ensure Store Exhibits <br>a safe and secure environment:</h2>
+                <label for="StoreExhibits">1</label>
+                <input type="radio" id="StoreExhibitsone" name="fav" value="1">
+                <label for="StoreExhibits">2</label>
+                <input type="radio" id="StoreExhibitstwo" name="fav" value="2">
+                <label for="StoreExhibits">3</label>
+                <input type="radio" id="StoreExhibitsthree" name="fav" value="3">
+                <label for="StoreExhibits">4</label>
+                <input type="radio" id="StoreExhibitsfour" name="fav" value="4">
+                <label for="StoreExhibits">5</label>
+                <input type="radio" id="StoreExhibitsfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentyeight" placeholder="Ensure Store Exhibits Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Dress Code Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentyone" placeholder="Dress Code Notes"></textarea> <hr></label>
+            <div class="flex-child ">
+                <h2>Is Manager following up on <br>NMI/Denial/Approved not Withdrawn Daily?<br> Evidence customer is contacted to convert to AR:</h2>
+                <label for="ManagerFollowing">1</label>
+                <input type="radio" id="ManagerFollowingone" name="fav" value="1">
+                <label for="ManagerFollowing">2</label>
+                <input type="radio" id="ManagerFollowingtwo" name="fav" value="2">
+                <label for="ManagerFollowing">3</label>
+                <input type="radio" id="ManagerFollowingthree" name="fav" value="3">
+                <label for="ManagerFollowing">4</label>
+                <input type="radio" id="ManagerFollowingfour" name="fav" value="4">
+                <label for="ManagerFollowing">5</label>
+                <input type="radio" id="ManagerFollowingfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgTwentynine" placeholder="NMI/Denial/Approved Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Review Document <br>Retention Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentytwo" placeholder="Review Document Retention Notes"></textarea> <hr> </label>
+            <div class="flex-child ">
+                <h2>Are all store employees in proper dresscode:</h2>
+                <label for="allStore">1</label>
+                <input type="radio" id="allStoreone" name="fav" value="1">
+                <label for="allStore">2</label>
+                <input type="radio" id="allStoretwo" name="fav" value="2">
+                <label for="allStore">3</label>
+                <input type="radio" id="allStorethree" name="fav" value="3">
+                <label for="allStore">4</label>
+                <input type="radio" id="allStorefour" name="fav" value="4">
+                <label for="allStore">5</label>
+                <input type="radio" id="allStorefive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgThirty" placeholder="Store employees Dress Code Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Audit Five Flex Loans Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentythree" placeholder="Audit Five Flex Loans Notes"></textarea> <hr></label>
+            <div class="flex-child ">
+                <h2>CSR Recognition Board:</h2>
+                <label for="CSR">1</label>
+                <input type="radio" id="CSRone" name="fav" value="1">
+                <label for="CSR">2</label>
+                <input type="radio" id="CSRtwo" name="fav" value="2">
+                <label for="CSR">3</label>
+                <input type="radio" id="CSRthree" name="fav" value="3">
+                <label for="CSR">4</label>
+                <input type="radio" id="CSRfour" name="fav" value="4">
+                <label for="CSR">5</label>
+                <input type="radio" id="CSRfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgThirtyone" placeholder="CSR Recognition Board Notes"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Validate hand signed agreement<br> inventory and documents Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentyfour" placeholder="Validate hand signed agreement inventory Notes"></textarea>  <hr></label>
+            <div class="flex-child ">
+                <h2>Please enter any <br>final notes or comments:</h2>
+                <label for="Final">1</label>
+                <input type="radio" id="Finalone" name="fav" value="1">
+                <label for="Final">2</label>
+                <input type="radio" id="Finaltwo" name="fav" value="2">
+                <label for="Final">3</label>
+                <input type="radio" id="Finalthree" name="fav" value="3">
+                <label for="Final">4</label>
+                <input type="radio" id="Finalfour" name="fav" value="4">
+                <label for="Final">5</label>
+                <input type="radio" id="Finalfive" name="fav" value="5">
+
+                <textarea name="txtMsg" class="form-control" id="msgThirtytwo" placeholder="Final Notes or comments"></textarea>
+                <hr>
             </div>
 
-            <div class="flex-child">
-                <label class="labels">Store is fully staffed and <br>manager recruiting weekly Notes 
-                <textarea name="txtMsg" class="form-control" id="msgTwentyfive" placeholder="Fully staffed and manager recruiting Notes "></textarea> <hr></label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels">Recruiting efforts Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentysix" placeholder="Recruiting efforts Notes"></textarea> <hr></label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels">Community Involvement Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentyseven" placeholder="Community Involvement Notes"></textarea> <hr></label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels">Review and Ensure Store Exhibits<br> a safe and secure environment Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentyeight" placeholder="Ensure Store Exhibits Notes"></textarea>  <hr> </label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels"> Manager following up<br> on NMI/Denial/Approved Notes
-                <textarea name="txtMsg" class="form-control" id="msgTwentynine" placeholder="NMI/Denial/Approved Notes"></textarea> <hr></label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels">Store employees in <br>proper dresscode Notes
-                <textarea name="txtMsg" class="form-control" id="msgThirty" placeholder="Store employees Dress Code Notes"></textarea> <hr> </label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels">CSR Recognition Board Notes
-                <textarea name="txtMsg" class="form-control" id="msgThirtyone" placeholder="CSR Recognition Board Notes"></textarea> <hr></label>
-            </div>
-
-            <div class="flex-child">
-                <label class="labels">Please enter any <br>final notes or comments
-                <textarea name="txtMsg" class="form-control" id="msgThirtytwo" placeholder="Final Notes or comments"></textarea> </label>
-            </div>
-
-            <!-- <div class="flex-child">
-                <textarea name="txtMsg" class="form-control" id="emailtwo" placeholder="Email "></textarea>
-            </div> -->
             <div class="flex-child">
                 <input type="submit" name="btnSubmit" class="btnContacttwo" value="Submit" />
             </div>
 
-
         </div>
+
     </div>
+
+    <br><br><br>
+
+
+
 
     <!-- Javascript files-->
     <script src="vendor/jquery/jquery.min.js"></script>

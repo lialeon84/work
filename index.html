@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Form</title>
+    <title>Ops Visit </title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="all,follow" />
@@ -25,30 +25,14 @@
 </head>
 
 <body>
-    <h1>Ops Visit</h1>
-    <!-- <div class="form-body">
-        <div class="row">
-            <div class="form-holder">
-                <div class="form-content">
-                    <div class="form-items">
-                        <form class="requires-validation" novalidate>
-                            <div class="form-button mt-3">
-                                <button id="submit" type="submit" class="btn btn-primary">
-                    Submit
-                  </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
+    <h1>Ops Visit Form</h1>
+
     <!-- section 0ne -->
     <div class="container contact-form">
-        <div class="flex-container">
+        <div class="flex-container" id="startformOne">
             <div class="flex-child ">
                 <div class="col-md-12">
-                    <select class="form-control" id="store">
+                    <select id="store" required>
               <option value="None"> Select Store </option>
               <option value="1"> 1</option>
               <option value="2"> 2</option>
@@ -150,187 +134,642 @@
               <option value="98">98</option>
               <option value="99">99</option>
               <option value="100">100</option>
+              <option value="100">101</option>
+              <option value="100">102</option>
+              <option value="100">103</option>
+              <option value="100">104</option>
             </select>
                 </div>
             </div>
             <div class="flex-child ">
-                <input class="form-control" type="date" data-date="" data-date-format="DD MMMM YYYY" />
+                <input type="date" id="datepicker" data-date-format="DD MMMM YYYY" required/>
             </div>
             <div class="flex-child ">
-                <input class="form-control" type="text" placeholder="Which Visit" />
+                <input type="text" id="whichVisit" placeholder="Which Visit" required/>
             </div>
 
             <div class="flex-child ">
-                <input class="form-control" type="text" placeholder="Operations Manager" />
+                <input type="text" id="OperationsManager" placeholder="Operations Manager" required/>
             </div>
         </div>
-
+        <hr style=" width:1242px; margin-left: 1px; margin-bottom: 15px;">
+        <br><br><br>
 
     </div>
     </div>
     <!-- section two -->
     <div class="container contact-form">
-        <div class="flex-containertwo">
+        <div class="flex-container">
 
             <div class="flex-child">
-                <label>Registrations [Store managers Role playing and coaching team? Culture of support and coaching in place]</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Registrations [Store managers Role <br>playing and coaching team? Culture <br>of support and coaching in place]:
+                    <div id="inputnum">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
             </div>
 
             <div class="flex-child ">
-                <label>Registrations [Review loan closings as they happen. What was outcome?]</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Registrations [Review loan closings <br>as they happen. What was outcome?]:
+                    <div id="inputone">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
             </div>
 
             <div class="flex-child ">
-                <label>Registrations [Loan registrations include debit card, bank statement and e-mail address. Where are opportunities today?]</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Registrations [Loan registrations<br> include debit card, bank statement and<br> e-mail address. Was there <br>opportunities today?]:
+                    <div id="inputtwo">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
             </div>
 
             <div class="flex-child ">
-                <label>Registrations [Update personal information on all transaction by asking "What is your phone number? What is your address?"]</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Registrations [Update personal <br>information on all transaction by<br> asking "What is your phone number?<br> What is your address?"]:
+                    <div id="inputthree">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
             </div>
 
             <div class="flex-child ">
-                <label>Revenue [Review P&L & all Revenue Goals. Is current week Prelim P&L posted for store team to review?]</label>
+                <h2>Revenue [Review P&L & all Revenue<br> Goals. Is current week Prelim P&L<br> posted for store team to review?]:
+                    <div id="inputfour">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
 
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
 
-            <div class="flex-child ">
-                <label>Revenue [Upselling and cross/right selling all products with enthusiasm?]</label>
-
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Revenue [All equipment working properly? (terminals, printer, scanner, etc) Help ticket filed?]</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-
-            <div class="flex-child ">
-                <label>Revenue [Audit all new flex loans including all supporting docs for validity since last visit. Initial each checklist.]</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Payroll [Store is fully staffed and utilizing all payroll hours?]</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Customer Experience [Every team member following CEC stages every time, with every customer?]</label>
-                <input class="form-control" id="inputnum" type="text" />
             </div>
 
             <div class="flex-child ">
-                <label>Customer Experience [Team knows most recent mystery shop scores and hits/misses?]</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Revenue [Upselling and cross/right <br>selling all products with enthusiasm?]:
+                    <div id="inputfive">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
             </div>
 
             <div class="flex-child ">
-                <label>Customer Experience [Are all store front signs on? All overhead and outside lights working?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Revenue [All equipment working properly? <br>(terminals, printer, scanner, etc)<br> Help ticket filed?]:
+                    <div id="inputsix">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Customer Experience [Planograms in lobby and teller area correct and reflective of world class standard?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Customer Experience [All areas of the store are surgically clean? (Counters, floors, ceiling tiles, windows)]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-
-            <div class="flex-child ">
-                <label>Customer Experience [Trash removed and disposed of properly, no customer info in trash?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Employee Experience [Field Training Guide utilized fully by store manager? CSR's not working alone within first three weeks of employment?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-
-            <div class="flex-child ">
-                <label>Employee Experience [Safety protocols followed without exception? Mantrap doors opened one at a time.]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Employee Experience [IDP's being utilized and reviewed monthly by store manager?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Employee Experience [FORD Card program reflective of current team?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Revenue [Audit all new flex loans <br>including all supporting docs for validity<br> since last visit. Initial each checklist.]:
+                    <div id="inputseven">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [Cash is secured in safe or in cash drawers? (Never left unsupervised)]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Payroll [Store is fully staffed and <br>utilizing all payroll hours?]:
+                    <div id="inputeight">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [All Loomis deliveries processed within one hour of arrival? (Sooner when no customers in building)]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Customer Experience [Every team<br> member following CEC stages <br>every time, with every customer?]:
+                    <div id="inputnine">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [Empty cash recycler to include all casettes and overflow. Ensure safe balances. Confirm user]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Compliance [Safe accessed by vault owner only?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-
-            <div class="flex-child ">
-                <label>Compliance [All training materials reflect no earlier than June 2016?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Compliance [All documents follow retention schedule and all loan docs secured in file cabinets and/or labeled banker boxes?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-
-            <div class="flex-child ">
-                <label>Compliance [Internal Audit missed items corrected within seven days and loaded to share drive?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Compliance [Review Over/Shorts. Training and coaching timely?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Compliance [Vendor Recon performed properly? Store Manager comparing vendor report vs. FiNext? Chexar vs FiNext?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Customer Experience [Team knows<br> most recent mystery shop <br>scores and hits/misses?]:
+                    <div id="inputten">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [Cash withdrawals include a copy of ID and receipt signed by customer. Matches to DTJ.]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Customer Experience [Are all store<br> front signs on? All overhead <br>and outside lights working?]:
+                    <div id="inputeleven">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [Drawer deassignments completed by safe holder including printing vendor reports and checking for variance?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Customer Experience [Planograms in lobby <br>and teller area correct and <br>reflective of world class standard?]:
+                    <div id="inputTwelve">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [Validate receipts. Check for Finext cash disbursements. $75 and above sent over to accouting?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
-            </div>
-            <div class="flex-child ">
-                <label>Compliance [All office supplies ordered and in line with budget?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Customer Experience [All areas <br>of the store are surgically clean?<br> (Counters, floors, ceiling tiles, windows)]:
+                    <div id="inputThirteen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
             </div>
 
             <div class="flex-child ">
-                <label>Compliance [Communication binder includes store schedule and all postings off store walls?]	</label>
-                <input class="form-control" id="inputnum" type="text" />
+                <h2>Customer Experience [Trash removed <br>and disposed of properly, <br>no customer info in trash?]:
+                    <div id="inputFourteen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Employee Experience [Field Training <br>Guide utilized fully by store manager? <br>CSR's not working alone within first <br>three weeks of employment?]:
+                    <div id="inputFifteen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Employee Experience [Safety protocols <br>followed without exception? <br>Mantrap doors opened one at a time.]:
+                    <div id="inputSixteen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Employee Experience [IDP's being<br> utilized and reviewed monthly<br> by store manager?]:
+                    <div id="inputSeventeen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Employee Experience [FORD Card<br> program reflective of <br>current team?]:
+                    <div id="inputEighteen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Cash is secured<br> in safe or in cash drawers?<br> (Never left unsupervised)]:
+                    <div id="inputNineteen">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [All Loomis deliveries<br> processed within one hour of arrival? <br>(Sooner when no customers in building)]:
+                    <div id="inputTwenty">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Empty cash recycler<br> to include all casettes and overflow. <br>Ensure safe balances. Confirm user]:
+                    <div id="inputTwentyone">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Safe accessed by <br>vault owner only?]:
+                    <div id="inputTwentytwo">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [All training <br>materials reflect no <br>earlier than June 2016?]:
+                    <div id="inputTwentythree">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [All documents follow <br>retention schedule and all loan <br>docs secured in file cabinets<br> and/or labeled banker boxes?]:
+                    <div id="inputTwentyfour">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Internal Audit <br>missed items corrected within<br> seven days and loaded to share drive?]:
+                    <div id="inputTwentyfive">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Review Over/Shorts.<br> Training and coaching timely?]:
+                    <div id="inputTwentysix">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Vendor Recon performed<br> properly? Store Manager comparing<br> vendor report vs. FiNext? <br>Chexar vs FiNext?]:
+                    <div id="inputTwentyseven">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Cash withdrawals <br>include a copy of ID and receipt<br> signed by customer. Matches to DTJ.]:
+                    <div id="inputTwentyeight">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Drawer deassignments <br>completed by safe holder including<br> printing vendor reports <br>and checking for variance?]:
+                    <div id="inputTwentynine">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Validate receipts. <br>Check for Finext cash disbursements.<br> $75 and above sent over to accouting?]:
+                    <div id="inputThirty">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [All office supplies <br>ordered and in line with budget?]:
+                    <div id="inputThirtyone">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+            </div>
+
+            <div class="flex-child ">
+                <h2>Compliance [Communication binder <br> includes store schedule <br>and all postings off store walls?]:
+                    <div id="inputThirtytwo">
+                        <label for="StoreandCSR">1.</label>
+                        <input type="radio" id="StoreandCSRone" name="fav" value="1">
+                        <label for="StoreandCSR">2.</label>
+                        <input type="radio" id="StoreandCSRtwo" name="fav" value="2">
+                        <label for="StoreandCSR">3.</label>
+                        <input type="radio" id="StoreandCSRthree" name="fav" value="3">
+                        <label for="StoreandCSR">4.</label>
+                        <input type="radio" id="StoreandCSRfour" name="fav" value="4">
+                        <label for="StoreandCSR">5.</label>
+                        <input type="radio" id="StoreandCSRfive" name="fav" value="5">
+                    </div>
+                </h2>
+                <hr style=" width:1242px;">
+
             </div>
         </div>
     </div>
-
+    <br><br><br>
     <!-- section three -->
-    <div class="container contact-form">
+    <!-- <div class="container contact-form">
         <div class="flex-containerthree">
 
             <div class="flex-child ">
@@ -422,38 +861,60 @@
 
 
         </div>
-    </div>
+    </div> -->
     <div class="container contact-form">
         <div class="flex-containerfour">
 
             <div class="flex-child">
-                <label class="labels">Registration Notes </label>
-                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Registration Notes "></textarea>
-            </div>
-            <div class="flex-child">
-                <label class="labels">Revenue Notes</label>
-                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Revenue Notes"></textarea>
-            </div>
-            <div class="flex-child">
-                <label class="labels">Payroll Notes</label>
-                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Payroll Notes"></textarea>
-            </div>
-            <div class="flex-child">
-                <label class="labels">Customer Experience Notes</label>
-                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Customer Experience Notes"></textarea>
-            </div>
-            <div class="flex-child">
-                <label class="labels">Employee Experience Notes</label>
-                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Employee Experience Notes"></textarea>
-            </div>
-            <div class="flex-child">
-                <label class="labels">Compliance Notes</label>
-                <textarea name="txtMsg" class="form-control" id="msg" placeholder="Compliance Notes"></textarea>
-            </div>
-            <div class="flex-child">
+                <h2>Registration Notes:</h2>
 
-                <textarea name="txtMsg" class="form-control" id="email" placeholder="Email "></textarea>
+                <textarea name="txtMsg" class="form-control" id="msgone" placeholder="Registration Notes "></textarea>
+                <hr>
             </div>
+            <br>
+
+            <div class="flex-child">
+                <h2>Revenue Notes:</h2>
+
+                <textarea name="txtMsg" class="form-control" id="msgtwo" placeholder="Revenue Notes"></textarea>
+                <hr>
+            </div>
+            <br>
+
+            <div class="flex-child">
+                <h2>Payroll Notes:</h2>
+
+                <textarea name="txtMsg" class="form-control" id="msgthree" placeholder="Payroll Notes"></textarea>
+                <hr>
+            </div>
+            <br>
+
+            <div class="flex-child">
+                <h2>Customer Experience Notes:</h2>
+
+                <textarea name="txtMsg" class="form-control" id="msgfour" placeholder="Customer Experience Notes"></textarea>
+                <hr>
+            </div>
+
+            <br>
+            <div class="flex-child">
+                <h2>Employee Experience Notes:</h2>
+
+                <textarea name="txtMsg" class="form-control" id="msgfive" placeholder="Employee Experience Notes"></textarea>
+                <hr>
+            </div>
+            <br>
+
+
+            <div class="flex-child">
+                <h2>Compliance Notes:</h2>
+
+                <textarea name="txtMsg" class="form-control" id="msgsix" placeholder="Compliance Notes"></textarea>
+                <hr>
+            </div>
+            <br>
+
+
             <div class="flex-child">
                 <input type="submit" name="btnSubmit" class="btnContact" value="Submit" />
             </div>

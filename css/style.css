@@ -1,57 +1,128 @@
+@import url(https://everythingfonts.com/font/face/0I2QRA8Tx3q_Wr3LvlRUIweF);
+@import url(https://everythingfonts.com/font/face/PyGAqqG87kajXhnuxQYSxweF);
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: inline-block;
+}
+
+html {}
+
+h1 {
+    text-align: center;
+    background-color: rgb(216, 93, 93);
+    color: white;
+    height: 30px;
+    font-size: 25px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    border-radius: 5px;
+    font-family: "goodtimesrg";
+    font-size: 1.8 em;
+}
+
 h2 {
     display: block;
-    font-size: 15px;
-    margin-left: 44px;
+    font-size: 12px;
+    margin-left: 35px;
     margin-bottom: 15px;
-    font-weight: 400;
+    font-family: "goodtimesrg";
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+hr {
+    height: 1px;
+    background: rgb(180, 179, 179);
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
 }
 
 
-/* .flex-container {
+/* top of form */
+
+#startformOne {
     display: grid;
     grid-template-columns: repeat(4, 15%);
-    grid-column-gap: 80px;
-    margin-left: 10px;
-    margin-top: 11px;
-    padding: 4%;
+    grid-column-gap: 150px;
+    /* margin-left: -145px; */
+    margin-top: 25px;
+    margin-bottom: 12px;
 }
 
-.flex-containertwo {
-    display: grid;
-    grid-template-columns: repeat(6, 15%);
-    grid-column-gap: 3px;
-    margin-left: 10px;
-    margin-top: 14px;
-    padding: 2%;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-} */
-
-
-/* .flex-containerthree {
-    display: grid;
-    grid-template-columns: repeat(4, 15%);
-    grid-column-gap: 30px;
-    margin-left: 10px;
-    margin-top: 14px;
-    padding: 2%;
-    margin-bottom: 20px;
-    justify-content: space-evenly;
-}
-
-.flex-containerfour {
+#startformTwo {
     display: grid;
     grid-template-columns: repeat(3, 15%);
-    grid-column-gap: 130px;
-    
-
-margin-top: 14px;
-padding: 4%;
-margin-bottom: 20px;
-justify-content: space-evenly;
-
+    grid-column-gap: 150px;
+    /* margin-left: -145px; */
+    margin-top: 25px;
+    margin-bottom: 12px;
 }
-*/
+
+
+/* store drop down */
+
+#store {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 12px;
+    color: #333;
+    font-family: "goodtimesrg";
+    outline: 0;
+    border: 0;
+}
+
+
+/* date picker */
+
+#datepicker {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: "goodtimesrg";
+    outline: 0;
+    border: 0;
+}
+
+
+/* manager input box */
+
+#OperationsManager {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: "goodtimesrg";
+    outline: 0;
+    border: 0;
+}
+
+#whichVisit {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: "goodtimesrg";
+    outline: 0;
+    border: 0;
+}
+
+
+/* note boxes */
 
 #msg,
 #msgone,
@@ -93,33 +164,12 @@ justify-content: space-evenly;
     margin-top: -50px;
     margin-bottom: 20px;
     align-items: center;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 12px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: "goodtimesrg";
 }
-
-#email {
-    width: 350px;
-    height: 40px;
-    border-radius: 5px;
-    margin-left: -100px;
-    align-items: center;
-}
-
-hr {
-    height: 1px;
-    background: rgb(180, 179, 179);
-}
-
-
-/* director form */
-
-
-/* #emailtwo {
-    width: 350px;
-    height: 40px;
-    border-radius: 5px;
-    margin-left: -815px;
-    align-items: center;
-    margin-top: 255px;
-} */
 
 label {
     display: inline-block;
@@ -179,37 +229,6 @@ textarea {
     padding: 2px;
 }
 
-
-/* director form */
-
-
-/* .labeltwo {
-    
-    margin-bottom: 10px;
-    overflow: hidden;
-    background-color: white;
-    height: 195px;
-    width: 160px;
-    border-radius: 5px;
-    align-items: center;
-    padding: 5px;
-    color: black;
-    font-size: 15px;
-}
-
-.labels {
-    text-align: center;
-    background-color: transparent;
-    margin-bottom: 10px;
-    height: 90px;
-    width: 150px;
-    border-radius: 5px;
-    align-items: center;
-    padding: 5px;
-    color: black;
-    font-size: 15px;
-} */
-
 .flex-child {
     flex: 1;
     margin-bottom: 14px;
@@ -227,245 +246,202 @@ textarea {
 
 /* input number ops form */
 
+#inputnum {
+    display: inline-block;
+    margin-left: 105px;
+}
 
-/* #inputnum,
-#inputone,
-#inputtwo,
-#inputthree,
-#inputfour,
-#inputfive,
-#inputsix,
-#inputseven,
-#inputeight,
-#inputnine,
-#inputten,
-#inputeleven,
-#inputTwelve,
-#inputThirteen,
-#inputFourteen,
-#inputFifteen,
-#inputSixteen,
-#inputSeventeen,
-#inputEighteen,
-#inputNineteen,
-#inputTwenty,
-#inputTwentyone,
-#inputTwentytwo,
-#inputTwentythree,
-#inputTwentyfour,
-#inputTwentyfive,
-#inputTwentysix,
-#inputTwentyseven,
-#inputTwentyeight,
-#inputTwentynine,
-#inputThirty,
+#inputone {
+    display: inline-block;
+    margin-left: 80.5px;
+}
+
+#inputtwo {
+    display: inline-block;
+    margin-left: 213px;
+}
+
+#inputthree {
+    display: inline-block;
+    margin-left: 193px;
+}
+
+#inputfour {
+    display: inline-block;
+    margin-left: 98px;
+}
+
+#inputfive {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+#inputsix {
+    display: inline-block;
+    margin-left: 252px;
+}
+
+#inputseven {
+    display: inline-block;
+    margin-left: 75px;
+}
+
+#inputeight {
+    display: inline-block;
+    margin-left: 152px;
+}
+
+#inputnine {
+    display: inline-block;
+    margin-left: 105px;
+}
+
+#inputten {
+    display: inline-block;
+    margin-left: 189px;
+}
+
+#inputeleven {
+    display: inline-block;
+    margin-left: 152px;
+}
+
+#inputTwelve {
+    display: inline-block;
+    margin-left: 68px;
+}
+
+#inputThirteen {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+#inputFourteen {
+    display: inline-block;
+    margin-left: 162px;
+}
+
+#inputFifteen {
+    display: inline-block;
+    margin-left: 148px;
+}
+
+#inputSixteen {
+    display: inline-block;
+    margin-left: 73px;
+}
+
+#inputSeventeen {
+    display: inline-block;
+    margin-left: 232px;
+}
+
+#inputEighteen {
+    display: inline-block;
+    margin-left: 272px;
+}
+
+#inputNineteen {
+    display: inline-block;
+    margin-left: 173px;
+}
+
+#inputTwenty {
+    display: inline-block;
+    margin-left: 52px;
+}
+
+#inputTwentyone {
+    display: inline-block;
+    margin-left: 78px;
+}
+
+#inputTwentytwo {
+    display: inline-block;
+    margin-left: 238px;
+}
+
+#inputTwentythree {
+    display: inline-block;
+    margin-left: 195px;
+}
+
+#inputTwentyfour {
+    display: inline-block;
+    margin-left: 128px;
+}
+
+#inputTwentyfive {
+    display: inline-block;
+    margin-left: 55px;
+}
+
+#inputTwentysix {
+    display: inline-block;
+    margin-left: 143px;
+}
+
+#inputTwentyseven {
+    display: inline-block;
+    margin-left: 245px;
+}
+
+#inputTwentyeight {
+    display: inline-block;
+    margin-left: 88px;
+}
+
+#inputTwentynine {
+    display: inline-block;
+    margin-left: 158px;
+}
+
+#inputThirty {
+    display: inline-block;
+    margin-left: 55px;
+}
+
 #inputThirtyone {
-   
-    background-color: blue;
-    width: 1.3em;
-    height: 1.3em;
-    background-color: white;
-    border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #ddd;
-    -webkit-appearance: none;
-    outline: none;
-    cursor: pointer;
-} */
-
-
-/* body {
-    background-color: #c2bfbf;
+    display: inline-block;
+    margin-left: 115px;
 }
 
-.contact-form {
-    background-color: #7a7c7c;
-    
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 100%;
-    height: auto;
-    outline: 0;
-}
-
-.contact-form {
-    border-radius: 1rem;
-}
-
-.contact-form form {
-    padding: 14%;
+#inputThirtytwo {
+    display: inline-block;
+    margin-left: 95px;
 }
 
 .contact-form .btnContact {
-    width: 50%;
+    width: 90px;
+    height: 40px;
     border: none;
-    border-radius: 1rem;
-    padding: 1.5%;
+    border-radius: 20px;
+    text-align: center;
     background: #f14f5f;
     font-weight: 600;
     color: #fff;
-    cursor: pointer;
-} */
+    margin-left: 500px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 1.2 em;
+    letter-spacing: 1px;
+    font-family: "irishgrowler";
+}
 
 
-/* director form */
+/* director form btn*/
 
-
-/* .contact-form .btnContacttwo {
-    width: 50%;
+.contact-form .btnContacttwo {
+    width: 90px;
+    height: 40px;
     border: none;
-    border-radius: 1rem;
-    padding: 1.5%;
+    border-radius: 20px;
     background: #f14f5f;
-    font-weight: 600;
+    /* font-weight: 600; */
+    text-align: center;
     color: #fff;
-    cursor: pointer;
-    margin-left: 350px;
-}
-
-#employee {
-    width: 105%;
-} */
-
-
-/* .containertwo {
-    
-    display: grid;
-    grid-template-columns: repeat(5, 15%);
-    grid-column-gap: 10px;
-    
-    padding-left: 35px;
-    margin-bottom: 12px;
-    cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-} */
-
-
-/* Hide the browser's default checkbox */
-
-
-/* .containertwo input {
-    position: absolute;
-    opacity: 0;
-    cursor: pointer;
-    height: 0;
-    width: 0;
-} */
-
-
-/* Create a custom checkbox */
-
-
-/* .checkmark {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 25px;
-    width: 25px;
-    background-color: #eee;
-    border-radius: 15px;
-} */
-
-
-/* On mouse-over, add a grey background color */
-
-.containertwo:hover input~.checkmark {
-    /* background-color: #ccc; */
-}
-
-
-/* When the checkbox is checked, add a blue background */
-
-.containertwo input:checked~.checkmark {
-    /* background-color: #2196f3; */
-}
-
-
-/* Create the checkmark/indicator (hidden when not checked) */
-
-.checkmark:after {
-    /* content: "";
-    position: absolute;
-    display: none; */
-}
-
-
-/* Show the checkmark when checked */
-
-.containertwo input:checked~.checkmark:after {
-    /* display: grid;
-    grid-template-columns: repeat(5, 15%);
-    grid-column-gap: 10px; */
-}
-
-
-/* Style the checkmark/indicator */
-
-.containertwo .checkmark:after {
-    /* left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg); */
-}
-
-
-/* fieldset {
-    float: left;
-    width: half the area;
-}
-
-fieldset label {
-    display: inline;
-    (though this should be default) padding: 0 enough for the sides;
-    white-space: nowrap;
-    don’t let inputs wrap without bringing label text along
-} */
-
-div {
-    display: inline-block;
-}
-
-select:not(:-internal-list-box) {
-    overflow: visible !important;
-}
-
-select {
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: auto;
-    box-sizing: border-box;
-    align-items: center;
-    white-space: pre;
-    -webkit-rtl-ordering: logical;
-    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-    cursor: default;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    border-radius: 0px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-    border-image: initial;
-}
-
-body {
-    display: block;
-    margin: 8px;
+    margin-left: 500px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 1.2 em;
+    letter-spacing: 1px;
+    font-family: "irishgrowler";
 }
