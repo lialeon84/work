@@ -108,6 +108,9 @@ hr {
     border: 0;
 }
 
+
+/* Ops visit */
+
 #whichVisit {
     width: 200px;
     height: 35px;
@@ -222,7 +225,7 @@ textarea {
     overflow-wrap: break-word;
     column-count: initial !important;
     margin: 0em;
-    border-width: 10px;
+    border-width: 1px;
     border-style: solid;
     border-color: rgb(10, 10, 10);
     border-image: initial;

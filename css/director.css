@@ -1,0 +1,215 @@
+@import url(https://everythingfonts.com/font/face/z8vhkJc1Ocm9X1JCw_dkJgeF);
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(216, 93, 93);
+    color: white;
+    height: 31px;
+    font-size: 24px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    border-radius: 5px;
+    font-family: 'PlayfairDisplayRegular';
+}
+
+h2 {
+    display: block;
+    font-size: 18.5px;
+    margin-left: 35px;
+    margin-bottom: 15px;
+    font-family: 'PlayfairDisplayRegular';
+    color: #333;
+    letter-spacing: 0.5px;
+}
+
+hr {
+    height: 1px;
+    background: rgb(180, 179, 179);
+    border-radius: 5px;
+    width: 1242%;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+}
+
+
+/* top of form */
+
+#startformTwo {
+    display: grid;
+    grid-template-columns: repeat(3, 15%);
+    grid-column-gap: 70%;
+    margin-left: 35%;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+
+
+/* store drop down */
+
+#store {
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 18px;
+    color: #333;
+    font-family: 'PlayfairDisplayRegular';
+    outline: 0;
+    border: 0;
+}
+
+
+/* date picker */
+
+#datepicker {
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'PlayfairDisplayRegular';
+    outline: 0;
+    border: 0;
+}
+
+
+/* manager input box */
+
+#OperationsManager {
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'PlayfairDisplayRegular';
+    outline: 0;
+    border: 0;
+}
+
+
+/* note boxes */
+
+#msg,
+#msgone,
+#msgtwo,
+#msgthree,
+#msgfour,
+#msgfive,
+#msgsix,
+#msgseven,
+#msgeight,
+#msgnine,
+#msgten,
+#msgeleven,
+#msgTwelve,
+#msgThirteen,
+#msgFourteen,
+#msgFifteen,
+#msgSixteen,
+#msgSeventeen,
+#msgEighteen,
+#msgNineteen,
+#msgTwenty,
+#msgTwentyone,
+#msgTwentytwo,
+#msgTwentythree,
+#msgTwentyfour,
+#msgTwentyfive,
+#msgTwentysix,
+#msgTwentyseven,
+#msgTwentyeight,
+#msgTwentynine,
+#msgThirty,
+#msgThirtyone,
+#msgThirtytwo {
+    width: 590px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 850px;
+    margin-top: -50px;
+    margin-bottom: 20px;
+    align-items: center;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 20px;
+    color: #333;
+    letter-spacing: 1px;
+    font-family: 'PlayfairDisplayRegular';
+}
+
+label {
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 15px;
+    align-items: center;
+}
+
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    column-count: initial !important;
+    margin: 0em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(102, 101, 101);
+    border-image: initial;
+    padding: 2px;
+}
+
+.flex-child {
+    flex: 1;
+    margin-bottom: 14px;
+    display: block;
+}
+
+.form-control {
+    width: 275px;
+    height: 30px;
+    margin-left: 200px;
+    outline: 0;
+    display: block;
+}
+
+
+/* director form btn*/
+
+.contact-form .btnContact {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    background: #f14f5f;
+    font-weight: 600;
+    color: #fff;
+    float: left;
+    margin-left: 700px;
+    box-shadow: 7px 5px 5px rgb(202, 200, 200);
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-family: 'PlayfairDisplayRegular';
+}
